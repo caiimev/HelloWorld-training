@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  vmImage: normal-vm
+  vmImage: "normal-vm"
 
 variables:
   solution: '**/*.sln'
